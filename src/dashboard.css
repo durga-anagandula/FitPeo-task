@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Adjust as needed */
+    gap: 5px; /* Space between grid items */
+  }
+  
+  .bar-chart {
+    grid-column: 1 / span 2; /* Span the entire width of the grid */
+  }
+  
+  .durga {
+    grid-column: 2; /* Place the Durga component in the second column */
+  }
+  .flex-container {
+  display: flex;
+  gap: 5px; /* Space between the cards */
+}
+
+.card {
+  flex: 1; /* Grow and shrink as needed */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: #fff;
+  height: 300px;
+  width: 700px;
+}
